@@ -54,31 +54,77 @@ function App() {
         <h2 className="text-center mb-4">🔍 Smart Lead Scoring</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
-            <input className="form-control" name="industry" placeholder="Industry" onChange={handleChange} required />
+            <input
+              className="form-control"
+              name="industry"
+              placeholder="Industry"
+              onChange={handleChange}
+              required
+            />
           </div>
           <div className="mb-3">
-            <input className="form-control" type="number" name="company_size" placeholder="Company Size" onChange={handleChange} required />
+            <input
+              className="form-control"
+              type="number"
+              name="company_size"
+              placeholder="Company Size"
+              onChange={handleChange}
+              required
+            />
           </div>
           <div className="mb-3">
-            <input className="form-control" name="region" placeholder="Region" onChange={handleChange} required />
+            <input
+              className="form-control"
+              name="region"
+              placeholder="Region"
+              onChange={handleChange}
+              required
+            />
           </div>
           <div className="mb-3">
-            <input className="form-control" type="number" name="num_contacts" placeholder="Number of Contacts" onChange={handleChange} required />
+            <input
+              className="form-control"
+              type="number"
+              name="num_contacts"
+              placeholder="Number of Contacts"
+              onChange={handleChange}
+              required
+            />
           </div>
           <div className="mb-3">
-            <input className="form-control" type="number" name="engagement_score" placeholder="Engagement Score" onChange={handleChange} required />
+            <input
+              className="form-control"
+              type="number"
+              name="engagement_score"
+              placeholder="Engagement Score"
+              onChange={handleChange}
+              required
+            />
           </div>
           <div className="mb-3">
-            <input className="form-control" name="source" placeholder="Lead Source" onChange={handleChange} required />
+            <input
+              className="form-control"
+              name="source"
+              placeholder="Lead Source"
+              onChange={handleChange}
+              required
+            />
           </div>
-          <button type="submit" className="btn btn-primary w-100">Predict</button>
+          <button type="submit" className="btn btn-primary w-100">
+            Predict
+          </button>
         </form>
 
         {result && (
           <div className="alert alert-success mt-4">
             <h5>Prediction Result</h5>
-            <p><strong>Conversion Probability:</strong> {result.score}</p>
-            <p><strong>Label:</strong> <span className="fw-bold text-primary">{result.label}</span></p>
+            <p>
+              <strong>Conversion Probability:</strong> {result.score}
+            </p>
+            <p>
+              <strong>Label:</strong>{" "}
+              <span className="fw-bold text-primary">{result.label}</span>
+            </p>
           </div>
         )}
 
