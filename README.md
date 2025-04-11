@@ -103,5 +103,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Licensed under the [MIT License](LICENSE).
 
 ---
-
-Let me know if you'd like a version with badges, or want to include sample API routes or screenshots of the UI!
