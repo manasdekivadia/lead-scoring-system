@@ -1,0 +1,6 @@
+# Ignore a folder
+code.ipynb
+smart_lead_scoring_dataset.csv
+
+/backend/node_modules
+/frontend/node_modules
