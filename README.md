@@ -1,18 +1,18 @@
-# 🧠 Lead Scoring System
+#  Lead Scoring System
 
 A full-stack AI-powered web application that helps businesses evaluate and prioritize leads. Built with **FastAPI** (Python) for the backend and **React** for the frontend. The system uses a pre-trained ML model (`model.pkl`) to assign scores to leads based on custom logic.
 
-## 🚀 Features
+##  Features
 
-- 🔥 **FastAPI Backend** — blazing fast, async Python API
-- ⚛️ **React Frontend** — clean, responsive UI
-- 🤖 **ML-Driven Scoring** — score leads via a trained `model.pkl`
-- 🌐 **RESTful Architecture** — seamless data flow between front and back
-- ☁️ **Deploy-Ready** — `render.yaml` config for cloud deployment (Render.com or similar)
+-  **FastAPI Backend** — blazing fast, async Python API
+-  **React Frontend** — clean, responsive UI
+-  **ML-Driven Scoring** — score leads via a trained `model.pkl`
+-  **RESTful Architecture** — seamless data flow between front and back
+-  **Deploy-Ready** — `render.yaml` config for cloud deployment (Render.com or similar)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 lead-scoring-system/
@@ -35,7 +35,7 @@ lead-scoring-system/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-➡️ FastAPI will run at: `http://127.0.0.1:8000`
+ FastAPI will run at: `http://127.0.0.1:8000`
 
 #### Optional:
 To explore the API docs:
@@ -73,11 +73,11 @@ npm install
 npm start
 ```
 
-➡️ React app runs at: `http://localhost:3000`
+React app runs at: `http://localhost:3000`
 
 ---
 
-## 🌍 Deployment
+##  Deployment
 
 You can deploy this project using [Render](https://render.com) or any platform that supports FastAPI + React apps.
 
@@ -86,19 +86,19 @@ You can deploy this project using [Render](https://render.com) or any platform t
 
 ---
 
-## 🧪 Sample ML Model
+## Sample ML Model
 
 The `model.pkl` file is a serialized machine learning model that scores leads based on your predefined logic. Make sure the input format to the model matches what it was trained on.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
 ---
 
-## 📄 License
+##  License
 
 Licensed under the [MIT License](LICENSE).
 
